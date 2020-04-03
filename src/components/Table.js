@@ -56,7 +56,7 @@ function Table() {
 			</div>
 
 			{data.map((band) => (
-				<div key={band.id} style={{ margin: '30px', color: 'red' }}>
+				<div key={band.id} style={{ margin: '30px', color: 'green' }}>
 					<div>{`Band: ${band.name}`}</div>
 					<div>{`Albums: ${band.albums}`}</div>
 					<div>{`Members: ${band.members}`}</div>
