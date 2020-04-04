@@ -19,7 +19,7 @@ const bands = [
 
 function Table() {
 	const [data, setData] = useState([]);
-	const [sortType, setSortType] = useState('albums');
+	const [sortType, setSortType] = useState('albums', 'year');
 
 	useEffect(() => {
 		const sortArray = (type) => {
