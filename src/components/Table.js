@@ -14,13 +14,6 @@ const bands = [
 		albums: 10,
 		members: 4,
 		year: 1981
-	},
-	{
-		id: 3,
-		name: 'Titans',
-		albums: 3,
-		members: 3,
-		year: 1987
 	}
 ];
 
